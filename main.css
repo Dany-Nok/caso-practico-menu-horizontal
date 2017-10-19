@@ -1,0 +1,38 @@
+/*Colores a usar:
+lightgray = color de fondo
+darkgray = color de hover
+font-family = sans-serif*/
+body {
+  font-family: sans-serif;
+}
+nav{
+  /*outline: 1px solid black;*/
+}
+ul{
+  /*outline: 1px solid black;*/
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  background-color: gray;
+}
+li{
+  /*outline: 1px solid red;*/
+  list-style: none;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+a{
+  /*outline: 1px solid blue;*/
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  background: gold;
+  color: black;
+}
+a:active{
+  background: black;
+  color: white;
+}
